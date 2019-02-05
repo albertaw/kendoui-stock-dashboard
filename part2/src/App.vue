@@ -1,9 +1,5 @@
 <template>
   <div id="app">
-    <kendo-datasource ref="remoteDataSource"
-      :transport-read-url="'https://api.iextrading.com/1.0/stock/aapl/chart/1m'"
-      :transport-read-data-type="'json'">
-    </kendo-datasource>
     <kendo-dropdownlist 
       ref="dropdown"
       :data-source="stockDataSource"
