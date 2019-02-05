@@ -9,9 +9,7 @@ import { ButtonGroup,
         ButtonsInstaller } from '@progress/kendo-buttons-vue-wrapper'
 import { Grid, GridInstaller } from '@progress/kendo-grid-vue-wrapper'
 import { Chart, ChartInstaller } from '@progress/kendo-charts-vue-wrapper'
-import { DataSource, DataSourceInstaller } from '@progress/kendo-datasource-vue-wrapper'
 
-Vue.use(DataSourceInstaller)
 Vue.use(LayoutInstaller)
 Vue.use(DropdownsInstaller)
 Vue.use(ButtonsInstaller)
@@ -26,8 +24,7 @@ new Vue({
   	ButtonGroup,
     ButtonGroupButton,
     Grid,
-  	Chart,
-    DataSource
+  	Chart
   },
   render: h => h(App)
 })

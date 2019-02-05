@@ -79,7 +79,6 @@ export default {
   height: 500px;
   margin-top: 16px;
 }
-
 </style>
 
 
